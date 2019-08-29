@@ -1,0 +1,53 @@
+{
+  "name": "react-simple-component",
+  "version": "1.0.3",
+  "description": "React 组件脚手架，可以调试、打包、发布单个 React 组件。",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --progress --colors --config webpack.dev.config.js",
+    "build": "webpack --mode production --progress --display-modules --colors --display-reasons",
+    "dist": "webpack --mode production --progress --colors --config webpack.dist.config.js"
+  },
+  "keywords": [
+    "function",
+    "common"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caihuascript/react-simple-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caihuascript/react-simple-component/issues"
+  },
+  "homepage": "https://github.com/caihuascript/react-simple-component#readme"
+}
